@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/stack/CourseDetailScreen.tsx", "app/(tabs)/AddFlashScreen.app/(tabs)/CourseListScreen.app/(tabs)/CreateCourseScreen.tsxurseScreen.tsx", "app/stack/DashboardScreen.tsx", "app/stack/LibraryCourseDetail.tsx", "app/(tabs)/SelectCourseScreen.app/(tabs)/LibraryScreen.tsxeen.tsx", "app/stack/AddCourseScreen.tsx", "app/SplashScreen.tsx", "app/(tabs)/Home.tsx"  ]
+}
